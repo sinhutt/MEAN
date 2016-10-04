@@ -1,0 +1,78 @@
+body {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 40px;
+}
+.flex-container1 {
+	display: -webkit-flex;
+	flex-direction: row;
+	position: fixed;
+	top: 10;
+	left: 10;
+}
+.flex-container2 {
+	display: -webkit-flex;
+	flex-direction: row;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+@keyframes testA {
+	0% {background-color: red;}
+	25% {background-color: yellow;}
+	50% {background-color: blue;}
+	75% {background-color: green;}
+}
+.A {
+	width: 90px;
+	height: 150px;
+	border-left: 10px;
+	border-left-color: #D0D0FF;
+	border-left-style: dotted;
+	padding-left: 10px;
+	text-align: left;
+	background-color: #eeeff2;
+	animation-name: testA;
+	animation-duration: 4s;
+	animation-iteration-count: 3;
+}
+.A:hover {
+	background-color: yellow;
+	cursor: pointer;
+}
+.B {
+	width: 90px;
+	height: 150px;
+	border-left: 10px;
+	border-left-color: #D0D0FF;
+	border-left-style: dotted;
+	padding-left: 10px;
+	text-align: left;
+	background-color: #eeeff2;
+}
+.B:hover {
+	background-color: yellow;
+	cursor: pointer;
+}
+.space {
+	width: 90px;
+	height: 10px;
+	background-color: white;
+}
+.F {
+	width: 90px;
+	height: 150px;
+	border-left: 10px;	
+	border-left-color: #D0D0FF;
+	border-left-style: dotted;
+	padding-left: 10px;
+	text-align: left;
+	background-color: #eeeff2;
+	-webkit-transition:width 2s, height 2s;
+	transition: width 2s, height 2s;
+}
+.F:hover {
+	background-color: yellow;
+	cursor: pointer;
+	width: 120px;
+	height:180px;
+}
