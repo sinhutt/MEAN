@@ -1,0 +1,16 @@
+<div>
+	<h1>Personalized Header for Project 4</h1>
+	<img class="zoomed" ng-src="{{image}}">
+	<p>
+		Which one is the cutest? 
+		Click on your favorite image below and it will show up at the top:)
+	</p>
+	<p>
+	<ul ng-repeat="currImg in imageList">
+		<li>
+			<img ng-src="{{currImg}}" alt="{{currImg}}" ng-click="clickImg(currImg)">
+		</li>
+	</ul>
+	<!-- <img src="./../../modelData/headerImg.jpg"> -->
+	</p>
+</div>
