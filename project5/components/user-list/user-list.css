@@ -1,0 +1,30 @@
+h1 {
+	text-align: center;
+	font-weight: bold;
+}
+.cs142-user-list {
+	padding-top: 50px;
+}
+ul {
+	padding-left: 110px;
+}
+li {
+	padding-top: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: blue;
+}
+a:visited {
+	color: green;
+}
+a:hover {
+	color: red;
+}
+a:active {
+	color: blue;
+}	

@@ -1,0 +1,22 @@
+/*
+CSS for the CS142 project #5 main page
+
+Since CSS uses a global name space for classes we should use class names starting with
+cs142-main- here.
+*/
+.toolbar-left {
+	padding-top: 10px;
+	padding-left: 10px;
+	text-align: left;
+	font-size: 20px;
+}
+.toolbar-center {
+	padding-top: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+.toolbar-right {
+	padding-top: 10px;
+	text-align: center;
+	font-size: 20px;
+}

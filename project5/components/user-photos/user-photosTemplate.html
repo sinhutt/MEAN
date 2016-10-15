@@ -1,0 +1,27 @@
+<div>
+	<h1>Photos of {{userName}}</h1>
+	<table>
+		<tr ng-repeat="photoName in photoNameList">
+			<td class="cs142-photo">
+				<img ng-src="{{photoName}}" alt="{{photoName}}">
+				<br/>
+				<p class="cs142-caption">
+					Photo created at {{photoList[$index].date_time}}
+				</p>
+			</td>
+			<td>
+				<p>
+				<ul ng-repeat="currComment in photoList[$index].comments">
+					<li>
+						<p>
+							{{currComment.date_time}} </br>
+							<a href="#/users/{{currComment.user._id}}">{{currComment.user.first_name}} {{currComment.user.last_name}}</a> commented:
+							{{currComment.comment}} </br>
+						</p>
+					</li>
+				</ul>
+				</p>
+			</td>
+		</tr>
+	</table>
+</div>
